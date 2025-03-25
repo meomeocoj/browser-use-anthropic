@@ -1,0 +1,22 @@
+{
+  "name": "browser-use-anthropic",
+  "version": "1.0.0",
+  "description": "A repository for using browser-use with Anthropic LLM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "anthropic",
+    "llm",
+    "browser-use"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.11.0",
+    "browser-use": "^0.0.7",
+    "dotenv": "^16.3.1"
+  }
+}
